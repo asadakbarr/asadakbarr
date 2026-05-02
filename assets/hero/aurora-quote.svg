@@ -1,0 +1,64 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rest at the end, not in the middle.</title>
+  <desc id="desc">Quote by Mr. Fisk, popularized by Kobe Bryant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#111B4D"/>
+      <stop offset="1" stop-color="#061B2E"/>
+    </linearGradient>
+    <linearGradient id="auroraA" x1="105" y1="280" x2="1135" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.34" stop-color="#2563EB"/>
+      <stop offset="0.7" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="auroraB" x1="1030" y1="290" x2="145" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C084FC"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(612 130) rotate(90) scale(205 520)">
+      <stop stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#2563EB" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#050816" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurXl" x="-180" y="-180" width="1560" height="680" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <filter id="softGlow" x="-30" y="-30" width="1260" height="380" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="round">
+      <rect width="1200" height="320" rx="34"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+    <g filter="url(#blurXl)" opacity="0.78">
+      <path d="M-65 242C95 122 210 143 360 203C514 265 603 251 757 140C888 46 1017 37 1267 119V333H-65V242Z" fill="url(#auroraA)"/>
+      <path d="M-80 62C101 135 282 89 446 63C620 36 774 72 934 153C1052 213 1152 211 1288 160V-54H-80V62Z" fill="url(#auroraB)" opacity="0.76"/>
+      <ellipse cx="235" cy="270" rx="310" ry="92" fill="#7C3AED" opacity="0.44"/>
+      <ellipse cx="1004" cy="46" rx="286" ry="98" fill="#22D3EE" opacity="0.34"/>
+    </g>
+    <path d="M0 247C148 189 278 195 414 228C593 271 703 242 841 164C963 95 1074 91 1200 132" stroke="#C084FC" stroke-opacity="0.42" stroke-width="2"/>
+    <path d="M0 95C191 150 331 121 487 78C657 31 797 42 976 119C1054 153 1128 162 1200 147" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="2"/>
+    <rect x="24" y="24" width="1152" height="272" rx="28" stroke="white" stroke-opacity="0.1"/>
+    <g filter="url(#softGlow)">
+      <text x="600" y="138" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">
+        Rest at the end,
+      </text>
+      <text x="600" y="190" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">
+        not in the middle.
+      </text>
+    </g>
+    <text x="600" y="236" text-anchor="middle" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0">
+      - Mr. Fisk (Popularized by Kobe Bryant)
+    </text>
+  </g>
+</svg>
