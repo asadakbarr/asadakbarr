@@ -1,0 +1,92 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rest at the end, not in the middle.</title>
+  <desc id="desc">Quote by Mr. Fisk, popularized by Kobe Bryant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B18"/>
+      <stop offset="0.5" stop-color="#0D1530"/>
+      <stop offset="1" stop-color="#08111F"/>
+    </linearGradient>
+    <linearGradient id="topFace" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67E8F9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="leftFace" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="rightFace" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C3AED" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#0E7490" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#334155" stroke-opacity="0.24" stroke-width="1"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="1200" height="320" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" opacity="0.72"/>
+
+    <path d="M-20 254H1220" stroke="#38BDF8" stroke-opacity="0.16"/>
+    <path d="M0 302L265 160H935L1200 302" stroke="#A78BFA" stroke-opacity="0.24"/>
+    <path d="M160 302L350 160" stroke="#38BDF8" stroke-opacity="0.14"/>
+    <path d="M1040 302L850 160" stroke="#38BDF8" stroke-opacity="0.14"/>
+    <path d="M350 302L480 160" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M850 302L720 160" stroke="#A78BFA" stroke-opacity="0.12"/>
+
+    <g opacity="0.94">
+      <g transform="translate(134 82)">
+        <path d="M72 0L144 38L72 76L0 38L72 0Z" fill="url(#topFace)" stroke="url(#edge)" stroke-width="2"/>
+        <path d="M0 38L72 76V158L0 120V38Z" fill="url(#leftFace)" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="2"/>
+        <path d="M144 38L72 76V158L144 120V38Z" fill="url(#rightFace)" stroke="#C084FC" stroke-opacity="0.76" stroke-width="2"/>
+        <path d="M72 76V158" stroke="#E9D5FF" stroke-opacity="0.46"/>
+        <path d="M24 51L72 76L120 51" stroke="#E0F2FE" stroke-opacity="0.36"/>
+        <path d="M24 102L72 127L120 102" stroke="#E0F2FE" stroke-opacity="0.22"/>
+      </g>
+
+      <g transform="translate(908 65) scale(0.86)">
+        <path d="M72 0L144 38L72 76L0 38L72 0Z" fill="url(#topFace)" stroke="url(#edge)" stroke-width="2"/>
+        <path d="M0 38L72 76V158L0 120V38Z" fill="url(#leftFace)" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="2"/>
+        <path d="M144 38L72 76V158L144 120V38Z" fill="url(#rightFace)" stroke="#C084FC" stroke-opacity="0.76" stroke-width="2"/>
+        <path d="M72 76V158" stroke="#E9D5FF" stroke-opacity="0.46"/>
+        <path d="M24 51L72 76L120 51" stroke="#E0F2FE" stroke-opacity="0.36"/>
+        <path d="M24 102L72 127L120 102" stroke="#E0F2FE" stroke-opacity="0.22"/>
+      </g>
+
+      <g transform="translate(770 210) scale(0.46)">
+        <path d="M72 0L144 38L72 76L0 38L72 0Z" fill="url(#topFace)" stroke="url(#edge)" stroke-width="3"/>
+        <path d="M0 38L72 76V158L0 120V38Z" fill="url(#leftFace)" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="3"/>
+        <path d="M144 38L72 76V158L144 120V38Z" fill="url(#rightFace)" stroke="#C084FC" stroke-opacity="0.76" stroke-width="3"/>
+      </g>
+
+      <g transform="translate(316 222) scale(0.4)">
+        <path d="M72 0L144 38L72 76L0 38L72 0Z" fill="url(#topFace)" stroke="url(#edge)" stroke-width="3"/>
+        <path d="M0 38L72 76V158L0 120V38Z" fill="url(#leftFace)" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="3"/>
+        <path d="M144 38L72 76V158L144 120V38Z" fill="url(#rightFace)" stroke="#C084FC" stroke-opacity="0.76" stroke-width="3"/>
+      </g>
+    </g>
+
+    <path d="M220 95L412 152L602 80L795 152L986 95" stroke="#67E8F9" stroke-opacity="0.38" stroke-width="1.5" stroke-dasharray="7 9"/>
+    <path d="M260 236L435 192L600 244L765 192L940 236" stroke="#C084FC" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="7 9"/>
+
+    <rect x="24" y="24" width="1152" height="272" rx="26" stroke="#E0F2FE" stroke-opacity="0.16"/>
+    <text x="600" y="132" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="0">
+      Rest at the end,
+    </text>
+    <text x="600" y="184" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="0">
+      not in the middle.
+    </text>
+    <text x="600" y="231" text-anchor="middle" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0">
+      - Mr. Fisk (Popularized by Kobe Bryant)
+    </text>
+  </g>
+</svg>
