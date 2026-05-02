@@ -37,14 +37,13 @@ AI creative tools, multiplayer game systems, fast publishing workflows, and open
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
 ![NextAuth](https://img.shields.io/badge/NextAuth-0f172a?style=for-the-badge&logo=auth0&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-0f172a?style=for-the-badge&logo=anthropic&logoColor=d8b4fe)
-![AWS](https://img.shields.io/badge/AWS-0f172a?style=for-the-badge&logo=amazonwebservices&logoColor=f59e0b)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-0f172a?style=for-the-badge&logo=amazondynamodb&logoColor=60a5fa)
+<img src="./assets/skills/aws.svg" height="28" alt="AWS" />
 ![GCP](https://img.shields.io/badge/GCP-0f172a?style=for-the-badge&logo=googlecloud&logoColor=60a5fa)
 ![Vercel](https://img.shields.io/badge/Vercel-0f172a?style=for-the-badge&logo=vercel&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-0f172a?style=for-the-badge&logo=stripe&logoColor=7c3aed)
 ![PayPal](https://img.shields.io/badge/PayPal-0f172a?style=for-the-badge&logo=paypal&logoColor=60a5fa)
 ![AdSense](https://img.shields.io/badge/AdSense-0f172a?style=for-the-badge&logo=googleadsense&logoColor=34a853)
-![OpenAI](https://img.shields.io/badge/OpenAI-0f172a?style=for-the-badge&logo=openai&logoColor=white)
+<img src="./assets/skills/openai.svg" height="28" alt="OpenAI" />
 ![WebGL](https://img.shields.io/badge/WebGL-0f172a?style=for-the-badge&logo=webgl&logoColor=f97316)
 ![Blender](https://img.shields.io/badge/Blender-0f172a?style=for-the-badge&logo=blender&logoColor=f97316)
 ![Godot](https://img.shields.io/badge/Godot-0f172a?style=for-the-badge&logo=godotengine&logoColor=60a5fa)
